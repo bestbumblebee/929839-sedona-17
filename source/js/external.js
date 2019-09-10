@@ -69,4 +69,9 @@ var coordinates = {lat: 34.870792, lng: -111.765570},
         icon: markerImage
     });
 }
-initMap();
+var map = document.querySelector('.map');
+
+if (map) {
+  initMap();
+}
+
